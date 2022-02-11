@@ -1,0 +1,15 @@
+.block {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  font-size: 5em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.empty {
+    border: none;
+    cursor: none;
+  }
+}
